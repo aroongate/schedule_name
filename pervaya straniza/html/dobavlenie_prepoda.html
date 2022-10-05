@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/index1.css">
+    <link rel="stylesheet" href="/css/fonts/stylename.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление преподавателя</title>
+    <style>@font-face {
+        font-family: IntroRegular; /* Имя шрифта */
+        src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
+       }</style>
+</head>
+<body>
+    <div class="header"> 
+        
+        <div class="logo">
+         
+        </div>
+        <nav class="nav"> 
+            <a class="nav__link" href="#"> Изменения </a> 
+            <a class="nav__link" href="#"> Расписание </a> 
+            <a class="nav__link" href="#"> Учебная часть </a> 
+            <a class="nav__link" disabled>Преподаватили</a>
+            <a class="nav__link" href="#"> Специальность </a> 
+            <a class="nav__link" href="#"> Аудитория </a> 
+            <a class="nav__link" href="#"> Группы </a> 
+            <a class="nav__link" href="#"> Дисциплины </a> 
+            <a class="nav__link" href="#"> Отделения </a> 
+            <a class="nav__link" href="#"> Настройки </a> 
+          </nav>
+          <div class="dobavlenie_prepoda_nadpis">Добавление преподавателя</div>
+         
+          <form name="sozdanie" id="form" action="" method="post">
+            <input class="imya" type="text" name="vvod_imeni" placeholder="Имя" ></input>
+            <input class="familiya" type="text" name="vvod_familii" placeholder="Фамилия" ></input>
+            <input class="otchestwo" type="text" name="vvod_otchestwa" placeholder="Отчество" ></input>
+            <select class="otdelenie"  name="vibor_otdeleniya"  >
+                <option value="">Отделение</option>
+            </select>
+            <button class="sohranit" type="submit" name="print" id="m" >Сохранить</button>
+
+            <script src="/js/v1.js"></script>
+        </form>
+        <form action="/html/index.html">
+            <button class="nazad" href="/html/index.html">Назад</button>
+        </form>
+        
+    
+</body>
+</html>

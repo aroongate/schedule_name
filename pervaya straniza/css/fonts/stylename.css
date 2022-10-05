@@ -1,0 +1,23 @@
+@font-face { 
+    font-family: "IntroLight";
+    src: url("../fonts/IntroLight/IntroLight.eot");
+    src: url("../fonts/IntroLight/IntroLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/IntroLight/IntroLight.woff") format("woff"),
+    url("../fonts/IntroLight/IntroLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-family: "IntroRegular";
+    src: url("../fonts/IntroRegular/IntroRegular.eot");
+    src: url("../fonts/IntroRegular/IntroRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/IntroRegular/IntroRegular.woff") format("woff"),
+    url("../fonts/IntroRegular/IntroRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-family: "CalibriLight";
+    src: url("../fonts/CalibriLight/CalibriLight.eot");
+    src: url("../fonts/CalibriLight/CalibriLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CalibriLight/CalibriLight.woff") format("woff"),
+    url("../fonts/CalibriLight/CalibriLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
