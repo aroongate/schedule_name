@@ -384,7 +384,7 @@ color: #000000;
     width: 365px;
     height: 47px;
     left: 210px;
-    top: 260px;
+    top: 200px;
     padding-left: 12px;
     font-family: 'IntroRegular';
     font-style: normal;
@@ -445,4 +445,32 @@ top: 320px;
 
 /* Blue */
 border: 2px solid #2183AA;
+}
+.checkbox{
+    position: absolute;
+left: 206px;
+top: 270px;
+
+/* White */
+background: #FFFFFF;
+}
+.praktika__nadpis{
+    position: absolute;
+width: 64px;
+height: 18px;
+left: 230px;
+top: 270px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+
+
 }
