@@ -474,3 +474,46 @@ color: #6C6E6E;
 
 
 }
+
+.test__prepoda{
+    position: absolute;
+width: 337px;
+height: 38px;
+left: 210px;
+top: 237px;
+
+background: #F3F9FB;
+}
+
+.test__prepoda__nadpis{
+    position: absolute;
+width: 274px;
+height: 18px;
+left: 15px;
+top: 10px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.krestik{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 314px;
+top: 8px;
+color: #2183AA;
+font-family: 'IntroRegular';
+border: 0;
+background-color: #F3F9FB;
+cursor: pointer;
+}
