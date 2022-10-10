@@ -517,3 +517,134 @@ border: 0;
 background-color: #F3F9FB;
 cursor: pointer;
 }
+
+
+table{ 
+    
+    border-collapse: collapse;
+    position: absolute;
+width: 1060px;
+height: 432px;
+left: 209px;
+top: 247px;
+
+}
+
+
+
+th {
+    padding: 10px; 
+    border: 1px solid  #E4E6EF;
+    font-family: 'IntroRegular';
+  }
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #E4E6EF;
+    font-family: 'Calibri-Light'
+  }
+
+
+.zagalovki{
+    
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+/* identical to box height */
+
+color: #2D2D2D;
+}
+
+
+.yacheiki{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    
+    color: #2D2D2D;
+    
+}
+
+.checkbox__2{
+        position: absolute;
+    left: 206px;
+    top: 450px;
+    
+    /* White */
+    background: #FFFFFF;
+}
+
+.ochnaya__forma{
+    position: absolute;
+width: 92px;
+height: 18px;
+left: 230px;
+top: 450px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+}
+
+
+.sohranit5{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #2183AA;
+position: absolute;
+width: 175px;
+height: 46px;
+left: 210px;
+top: 510px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+
+.nazad5{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 171px;
+height: 46px;
+left: 405px;
+top: 510px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
