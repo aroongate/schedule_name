@@ -648,3 +648,47 @@ top: 510px;
 border: 2px solid #2183AA;
 }
 
+.imya2   {
+    
+    position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 140px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    
+    
+    }
+
+    .naimenovanie2{
+        position: absolute;
+    width: 365px;
+    height: 47px;
+    left: 210px;
+    top: 260px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+
+        
+    }
