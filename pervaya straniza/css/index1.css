@@ -692,3 +692,126 @@ border: 2px solid #2183AA;
 
         
     }
+    .otchestwo2 {
+        position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 440px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    }
+
+
+    .otchestwo3 {
+        position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 500px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    }
+
+    .sohranit6{
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'IntroRegular';
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    color: #2183AA;
+    position: absolute;
+    width: 175px;
+    height: 46px;
+    left: 210px;
+    top: 570px;
+    
+    /* Blue */
+    border: 2px solid #2183AA;
+    }
+    
+    .nazad6{
+        font-family: 'IntroRegular';
+        text-decoration: none;
+        color: #2183AA;
+        box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 171px;
+    height: 46px;
+    left: 405px;
+    top: 570px;
+    
+    /* Blue */
+    border: 2px solid #2183AA;
+    }
+
+
+.poisk2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 564px;
+height: 47px;
+left: 210px;
+top: 653px;
+
+border: 2px solid #DADBDB;
+}
+.poisk__knopka2{
+    position: absolute;
+width: 84px;
+height: 47px;
+left: 690px;
+top: 653px;
+
+/* Button */
+background: linear-gradient(90deg, #2183AA 0%, #2661A6 0.01%, #409BC2 100%);
+
+}
+
+.tablica2{
+    border-collapse: collapse;
+    position: absolute;
+    box-sizing: border-box;
+
+position: absolute;
+width: 554px;
+height: 246px;
+left: 210px;
+top: 722px;
+
+border: 1px solid #E4E6EF;
+}

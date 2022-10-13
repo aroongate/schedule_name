@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/index1.css">
+    <link rel="stylesheet" href="/css/fonts/stylename.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление группы</title>
+    <style>@font-face {
+        font-family: IntroRegular; /* Имя шрифта */
+        src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
+       }</style>
+        <style>@font-face {
+            font-family: Calibri-Light; /* Имя шрифта */
+            src: url(/css/fonts/Calibri-Light.ttf); /* Путь к файлу со шрифтом */
+           }</style>
+</head>
+<body>
+    <div class="header"> 
+        <div class="logo">
+         
+        </div>
+        <nav class="nav"> 
+            <a class="nav__link" href="#"> Изменения </a> 
+            <a class="nav__link" href="#"> Расписание </a> 
+            <a class="nav__link" href="#"> Учебная часть </a> 
+            <a class="nav__link" href="/html/index.html">Преподаватили</a>
+            <a class="nav__link" disabled> Специальность </a> 
+            <a class="nav__link" href="/html/spisok_auditori.html"> Аудитория </a> 
+            <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
+            <a class="nav__link" href="/html/disciplini.html"> Дисциплины </a> 
+            <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
+            <a class="nav__link" href="#"> Настройки <div class="shesterenka">
+            </nav>
+            <div class="dobavlenie_prepoda_nadpis">Добавление группы</div>
+         
+          <form name="sozdanie" id="form" action="" method="post">
+            <input class="imya" type="text" name="vvod_imeni" placeholder="Код" ></input>
+            <input class="familiya" type="text" name="vvod_familii" placeholder="Наименование" ></input>
+            <input class="otchestwo" type="text" name="vvod_otchestwa" placeholder="Кодовое имя" ></input>
+            <select class="otdelenie"  name="vibor_otdeleniya"  >
+                <option value="">Отделение</option>
+            </select>
+            <input class="otchestwo2" type="text" name="vvod_otchestwa" placeholder="Дневная нагрузка" ></input>
+            <input class="otchestwo3" type="text" name="vvod_otchestwa" placeholder="Недельная нагрузка" ></input>
+        
+            <button class="sohranit6" type="submit" name="print" id="m" >Сохранить</button>
+        </form>
+        <form action="/html/spisok_specialnostei.html">
+            <button class="nazad6" href="/html/spisok_specialnostei.html">Назад</button>
+        </form>
+        <p><input class="poisk2" type="search" name="q" placeholder=""> 
+            <a class="poisk__knopka2" href="">
+               
+                <div class="lupa"></div>
+            </a>
+        </p>
+      
+           </div>   
+           <table class="tablica2">
+            <div class="zagalovki"><tr align="centr">
+                <th> </th>
+                <th>Код предмета</th>
+                <th>Наименование</th>
+            </tr></div>
+            <div class="yacheiki"><tr>
+                <td>+</td>
+                <td>ОГСЭ.01</td>
+                <td>Основы философии</td>
+            </tr></div>
+            <div class="yacheiki"><tr>
+                <td>+</td>
+                <td>ОГСЭ.2</td>
+                <td>История</td>
+            </tr></div><div class="yacheiki"><tr>
+                <td>+</td>
+                <td>ОГСЭ.3</td>
+                <td>Иностранный язык</td>
+            </div>
+        </div>
+</body>
+</html>
