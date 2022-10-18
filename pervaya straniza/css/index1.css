@@ -909,3 +909,88 @@ border: 2px solid #2183AA;
     color: #6C6E6E;
     border: 1px solid #6C6E6E;
 }
+
+.login{
+    position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 140px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;    
+}
+
+.parol{
+    position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 200px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;    
+}
+
+.enter{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #2183AA;
+position: absolute;
+width: 175px;
+height: 46px;
+left: 210px;
+top: 260px;
+
+/* Blue */
+border: 2px solid #2183AA;    
+}
+
+.nazad_auditori{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 171px;
+height: 46px;
+left: 405px;
+top: 260px;
+
+/* Blue */
+border: 2px solid #2183AA;    
+}
