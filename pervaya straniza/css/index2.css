@@ -1,0 +1,1125 @@
+
+.header{
+    position: absolute;
+width: 160px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #3685B7;
+}
+
+.logo{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 30px;
+top: 30px;
+
+background: url(../img/logo.jpg);
+border-radius: 49.5px;
+}
+
+.nav  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    position: absolute;
+    width: 160px;
+    height: 378px;
+    left: 30px;
+    top: 180px;
+    
+    
+}
+.nav__link{
+    
+    text-decoration: none;
+    width: 85px;
+    height: 16px;
+    white-space: nowrap;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+
+.spisok{
+    position: absolute;
+width: 564px;
+height: 48px;
+left: 210px;
+top: 60px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 48px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.poisk{
+    box-sizing: border-box;
+
+position: absolute;
+width: 564px;
+height: 47px;
+left: 210px;
+top: 146px;
+
+border: 2px solid #DADBDB;
+}
+.poisk__knopka{
+    position: absolute;
+width: 84px;
+height: 47px;
+left: 690px;
+top: 146px;
+
+/* Button */
+background: linear-gradient(90deg, #2183AA 0%, #2661A6 0.01%, #409BC2 100%);
+
+}
+
+.position{
+    position: absolute;
+width: 287px;
+height: 54px;
+left: 1600px;
+top: 753px;
+
+
+}
+
+
+.kolvo{
+
+    position: absolute;
+    width: 271px;
+    height: 20px;
+    left: 0px;
+    top: 22px;
+    
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    
+    /* identical to box height */
+    
+    color: #787885;
+    
+    
+}
+
+.knopka__dobavit{
+    box-sizing: border-box;
+
+position: absolute;
+width: 149px;
+height: 47px;
+left: 210px;
+top: 750px;
+
+background: #FFFFFF;
+border: 1px solid #2183AA;
+}
+
+
+.dobavit{
+    position: absolute;
+    width: 114px;
+    height: 20px;
+    left: 233px;
+    top: 764px;
+    text-decoration: none;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    
+    /* identical to box height */
+    
+    color: #2183AA;
+    
+     
+}
+
+.dobavlenie_prepoda_nadpis{
+    position: absolute;
+width: 643px;
+height: 48px;
+left: 260px;
+top: 60px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 48px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+.imya   {
+    
+position: absolute;
+width: 343px;
+height: 40px;
+left: 210px;
+top: 100px;
+padding-left: 15px;
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+
+
+}
+
+.familiya {
+    position: absolute;
+width: 343px;
+height: 40px;
+left: 210px;
+top: 260px;
+padding-left: 15px;
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+
+}
+.otchestwo {
+    position: absolute;
+width: 343px;
+height: 40px;
+left: 210px;
+top: 320px;
+padding-left: 15px;
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+}
+.otdelenie {
+    position: absolute;
+width: 365px;
+height: 47px;
+left: 210px;
+top: 380px;
+padding-left: 12px;
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+background-color: #FFFFFF;
+text-decoration: none;
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+border: 1px solid #6C6E6E;
+}
+
+.sohranit{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #2183AA;
+position: absolute;
+width: 175px;
+height: 46px;
+left: 210px;
+top: 450px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+.nazad{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 171px;
+height: 46px;
+left: 405px;
+top: 450px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+.izmenit{
+    box-sizing: border-box;
+text-decoration: none;
+color: #2183AA;
+font-family: 'IntroRegular';
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 34px;
+gap: 10px;
+
+position: absolute;
+width: 145px;
+height: 46px;
+left: 210px;
+top: 450px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+.nazad__2{
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 34px;
+gap: 10px;
+
+position: absolute;
+width: 121px;
+height: 46px;
+left: 375px;
+top: 450px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+
+.naimenovanie__predmetov{
+    position: absolute;
+width: 248px;
+height: 20px;
+left: 210px;
+top: 243px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.naimenovanie{position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 200px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+
+}
+.sohranit__disciplinu{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #FFFFFF;
+position: absolute;
+width: 428px;
+height: 46px;
+left: 260px;
+top: 370px;
+
+/* Blue */
+background-color: #2183AA;
+border: 2px solid #2183AA;
+}
+
+.nazad__disciplini{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 428px;
+height: 46px;
+left: 260px;
+top: 430px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+.checkbox{
+    position: absolute;
+left: 206px;
+top: 270px;
+
+/* White */
+background: #FFFFFF;
+}
+.praktika__nadpis{
+    position: absolute;
+width: 64px;
+height: 18px;
+left: 230px;
+top: 270px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+
+
+}
+
+.test__prepoda{
+    position: absolute;
+width: 337px;
+height: 38px;
+left: 210px;
+top: 237px;
+
+background: #F3F9FB;
+}
+
+.test__prepoda__nadpis{
+    position: absolute;
+width: 274px;
+height: 18px;
+left: 15px;
+top: 10px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.krestik{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 314px;
+top: 8px;
+color: #2183AA;
+font-family: 'IntroRegular';
+border: 0;
+background-color: #F3F9FB;
+cursor: pointer;
+}
+
+
+table{ 
+    
+    border-collapse: collapse;
+    position: absolute;
+width: 1060px;
+height: 432px;
+left: 209px;
+top: 247px;
+
+}
+
+
+
+th {
+    padding: 10px; 
+    border: 1px solid  #E4E6EF;
+    font-family: 'IntroRegular';
+  }
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #E4E6EF;
+    font-family: 'Calibri-Light'
+  }
+
+
+.zagalovki{
+    
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+/* identical to box height */
+
+color: #2D2D2D;
+}
+
+
+.yacheiki{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    
+    color: #2D2D2D;
+    
+}
+
+.checkbox__2{
+        position: absolute;
+    left: 206px;
+    top: 450px;
+    
+    /* White */
+    background: #FFFFFF;
+}
+
+.ochnaya__forma{
+    position: absolute;
+width: 92px;
+height: 18px;
+left: 230px;
+top: 450px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+
+/* or 18px */
+
+/* Muted-Black */
+color: #6C6E6E;
+}
+
+
+.sohranit5{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #2183AA;
+position: absolute;
+width: 175px;
+height: 46px;
+left: 210px;
+top: 510px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+
+.nazad5{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 171px;
+height: 46px;
+left: 405px;
+top: 510px;
+
+/* Blue */
+border: 2px solid #2183AA;
+}
+
+.imya2   {
+    
+    position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 140px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    
+    
+    }
+
+    .naimenovanie2{
+        position: absolute;
+    width: 365px;
+    height: 47px;
+    left: 210px;
+    top: 260px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+
+        
+    }
+    .otchestwo2 {
+        position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 440px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    }
+
+
+    .otchestwo3 {
+        position: absolute;
+    width: 343px;
+    height: 40px;
+    left: 210px;
+    top: 500px;
+    padding-left: 15px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    }
+
+    .sohranit6{
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'IntroRegular';
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    color: #2183AA;
+    position: absolute;
+    width: 175px;
+    height: 46px;
+    left: 210px;
+    top: 570px;
+    
+    /* Blue */
+    border: 2px solid #2183AA;
+    }
+    
+    .nazad6{
+        font-family: 'IntroRegular';
+        text-decoration: none;
+        color: #2183AA;
+        box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 171px;
+    height: 46px;
+    left: 405px;
+    top: 570px;
+    
+    /* Blue */
+    border: 2px solid #2183AA;
+    }
+
+
+.poisk2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 564px;
+height: 47px;
+left: 210px;
+top: 653px;
+
+border: 2px solid #DADBDB;
+}
+.poisk__knopka2{
+    position: absolute;
+width: 84px;
+height: 47px;
+left: 690px;
+top: 653px;
+
+/* Button */
+background: linear-gradient(90deg, #2183AA 0%, #2661A6 0.01%, #409BC2 100%);
+
+}
+
+.tablica2{
+    border-collapse: collapse;
+    position: absolute;
+    box-sizing: border-box;
+
+position: absolute;
+width: 554px;
+height: 246px;
+left: 210px;
+top: 722px;
+
+border: 1px solid #E4E6EF;
+}
+
+
+.sohranit7{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #2183AA;
+position: absolute;
+width: 175px;
+height: 46px;
+left: 300px;
+top: 570px;
+
+/* Blue */
+border: 2px solid #2183AA;    
+}
+
+
+
+.dobavlenie_predmeta{
+    position: absolute;
+width: 643px;
+height: 48px;
+left: 260px;
+top: 60px;
+
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 48px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+.naimenovanie4{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 260px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+}
+
+.checkbox3{
+    position: absolute;
+    left: 256px;
+    top: 330px;
+    
+    /* White */
+    background: #FFFFFF;   
+}
+
+.praktika__nadpis2{
+    position: absolute;
+    width: 64px;
+    height: 18px;
+    left: 280px;
+    top: 330px;
+    
+    white-space: nowrap;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;   
+}
+
+.naimenovanie3{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 140px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+}
+
+.login{
+    position: absolute;
+    width: 408px;
+    height: 47px;
+    left: 260px;
+    top: 140px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;  
+}
+
+.parol{
+    position: absolute;
+    width: 408px;
+    height: 47px;
+    left: 260px;
+    top: 200px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;    
+}
+
+.enter{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IntroRegular';
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+color: #FFFFFF;
+position: absolute;
+width: 428px;
+height: 46px;
+left: 260px;
+top: 280px;
+
+/* Blue */
+background-color: #2183AA;
+border: 2px solid #2183AA;  
+}
+
+.nazad_auditori{
+    font-family: 'IntroRegular';
+    text-decoration: none;
+    color: #2183AA;
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+
+position: absolute;
+width: 428px;
+height: 46px;
+left: 260px;
+top: 340px;
+
+/* Blue */
+border: 2px solid #2183AA;    
+}
+
+.yellow_line{
+    position: absolute;
+width: 480px;
+height: 3px;
+left: 260px;
+top: 115px;
+
+/* yellow */
+
+background: #FFD031;
+}
+
+.nomer_semestra{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 140px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;  
+}
+
+.kolvo_nedel{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 200px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+}
+
+.yellow_line1{
+    position: absolute;
+width: 568px;
+height: 3px;
+left: 260px;
+top: 115px;
+
+/* yellow */
+
+background: #FFD031;   
+}
+
+.textbox-n{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 260px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;   
+}
+
+.yellow_line2{
+    position: absolute;
+    width: 278px;
+    height: 3px;
+    left: 260px;
+    top: 115px;
+    
+    /* yellow */
+    
+    background: #FFD031;  
+}
