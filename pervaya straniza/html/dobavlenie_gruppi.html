@@ -13,35 +13,13 @@
        }</style>
 </head>
 <body>
-    <div class="content">
-        <div class="tabs">
-            <nav class="tabs_items">
-                <a href="#tab_01" class="tabs_items">Семестры</a>
-                <a href="#tab_02" class="tabs_items">Изучаемые дисциплины</a>
-            </nav>
-            <div class="tabs_body">
-                <div id="tab_01" class="tabs_block">
-
-                </div>
-                    <div id="tab_02" class="tabs_block">
-
-                    </div>
-            </div>
-        </div>
-        <div class="text">
-            
-        </div>
-    </div>
-
-
-
     <div class="header"> 
         <div class="logo">
          
         </div>
         <nav class="nav"> 
             <a class="nav__link" href="#"> Изменения </a> 
-            <a class="nav__link" href="#"> Расписание </a> 
+            <a class="nav__link" href="/html/raspisanie.html"> Расписание </a> 
             <a class="nav__link" href="#"> Учебная часть </a> 
             <a class="nav__link" href="/html/index.html">Преподаватили</a>
             <a class="nav__link" href="/html/spisok_specialnostei.html"> Специальность </a> 
@@ -51,26 +29,24 @@
             <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
             <a class="nav__link" href="#"> Настройки <div class="shesterenka">
             </nav>
-            <div class="dobavlenie_prepoda_nadpis">Группы</div>
+            <div class="dobavlenie_prepoda_nadpis">Добавление группы</div>
          
           <form name="sozdanie" id="form" action="" method="post">
-            <input class="imya" type="text" name="vvod_imeni" placeholder="Имя" ></input>
-            <input class="familiya" type="text" name="vvod_familii" placeholder="Фамилия" ></input>
-            <input class="otchestwo" type="text" name="vvod_otchestwa" placeholder="Отчество" ></input>
+            <input class="imya" type="text" name="vvod_imeni" placeholder="Кодовое имя" ></input>
+            <input class="familiya" type="text" name="vvod_familii" placeholder="Подгруппа" ></input>
+            <input class="otchestwo" type="text" name="vvod_otchestwa" placeholder="Курс" ></input>
             <input class="checkbox__2" type="checkbox" name="terms">
             <select class="otdelenie"  name="vibor_otdeleniya"  >
-                <option value="">Отделение</option>
+                <option value="">Специальность</option>
             </select>
             <div class="ochnaya__forma" >Очная форма</div>
-            <button class="sohranit5" type="submit" name="print" id="m" >Добавить</button>
+            <button class="sohranit5" type="submit" name="print" id="m" >Сохранить</button>
         </form>
         <form action="/html/spisok_grupp.html">
             <button class="nazad5" href="/html/spisok_grupp.html">Назад</button>
         </form>
-
-
-        
-
-
+       
+    
+    </div>
 </body>
-</html> 
+</html>
