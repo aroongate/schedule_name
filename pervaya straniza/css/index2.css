@@ -195,7 +195,7 @@ position: absolute;
 width: 343px;
 height: 40px;
 left: 210px;
-top: 200px;
+top: 100px;
 padding-left: 15px;
 font-family: 'IntroRegular';
 font-style: normal;
@@ -937,40 +937,44 @@ color: #000000;
 
 .login{
     position: absolute;
-    width: 343px;
-    height: 40px;
-    left: 210px;
+    width: 408px;
+    height: 47px;
+    left: 260px;
     top: 140px;
-    padding-left: 15px;
+    padding-left: 12px;
     font-family: 'IntroRegular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 130%;
-    
+    background-color: #FFFFFF;
+    text-decoration: none;
     /* or 18px */
     
     /* Muted-Black */
-    color: #6C6E6E;    
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;  
 }
 
 .parol{
     position: absolute;
-    width: 343px;
-    height: 40px;
-    left: 210px;
+    width: 408px;
+    height: 47px;
+    left: 260px;
     top: 200px;
-    padding-left: 15px;
+    padding-left: 12px;
     font-family: 'IntroRegular';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 130%;
-    
+    background-color: #FFFFFF;
+    text-decoration: none;
     /* or 18px */
     
     /* Muted-Black */
-    color: #6C6E6E;    
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;    
 }
 
 .enter{
@@ -985,15 +989,16 @@ justify-content: center;
 align-items: center;
 padding: 16px 40px;
 gap: 10px;
-color: #2183AA;
+color: #FFFFFF;
 position: absolute;
-width: 175px;
+width: 428px;
 height: 46px;
-left: 210px;
-top: 260px;
+left: 260px;
+top: 280px;
 
 /* Blue */
-border: 2px solid #2183AA;    
+background-color: #2183AA;
+border: 2px solid #2183AA;  
 }
 
 .nazad_auditori{
@@ -1011,10 +1016,10 @@ padding: 16px 40px;
 gap: 10px;
 
 position: absolute;
-width: 171px;
+width: 428px;
 height: 46px;
-left: 405px;
-top: 260px;
+left: 260px;
+top: 340px;
 
 /* Blue */
 border: 2px solid #2183AA;    
@@ -1030,4 +1035,91 @@ top: 115px;
 /* yellow */
 
 background: #FFD031;
+}
+
+.nomer_semestra{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 140px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;  
+}
+
+.kolvo_nedel{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 200px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;
+}
+
+.yellow_line1{
+    position: absolute;
+width: 568px;
+height: 3px;
+left: 260px;
+top: 115px;
+
+/* yellow */
+
+background: #FFD031;   
+}
+
+.textbox-n{
+    position: absolute;
+    width: 428px;
+    height: 47px;
+    left: 260px;
+    top: 260px;
+    padding-left: 12px;
+    font-family: 'IntroRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    /* or 18px */
+    
+    /* Muted-Black */
+    color: #6C6E6E;
+    border: 1px solid #6C6E6E;   
+}
+
+.yellow_line2{
+    position: absolute;
+    width: 278px;
+    height: 3px;
+    left: 260px;
+    top: 115px;
+    
+    /* yellow */
+    
+    background: #FFD031;  
 }

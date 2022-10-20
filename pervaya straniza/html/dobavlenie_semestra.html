@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Добавление предмета</title>
+    <title>Добавление семестра</title>
     <style>@font-face {
         font-family: IntroRegular; /* Имя шрифта */
         src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
@@ -27,25 +27,25 @@
             <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
             <a class="nav__link" href="/html/disciplini.html"> Дисциплины </a> 
             <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
-            <a class="nav__link" href="/html/settings.html"> Настройки <div class="shesterenka">
+            <a class="nav__link" href="#"> Настройки <div class="shesterenka">
                
             </div> </a> 
             </nav>
-            <div class="dobavlenie_predmeta">Добавление предмета</div>
-            <div class="yellow_line">
+            <div class="dobavlenie_predmeta">Добавление семестра 1-11   </div>
+            <div class="yellow_line1">
             </div>
             <form name="sozdanie" id="form" action="" method="post">
                 
-                <select class="naimenovanie3"  name="vibor_otdeleniya"  ><option value="">Название</option>
-                </select>
-                <select class="naimenovanie"  name="vibor_otdeleniya"  ><option value="">Преподаватель</option>
-                </select>
-                <select class="naimenovanie4"  name="vibor_otdeleniya"  ><option value="">Преподаватель</option>
-                </select>
-                <button class="sohranit__disciplinu" type="submit" name="print" id="m" >Сохранить</button>
-                <input class="checkbox3" type="checkbox" name="terms"> 
-                   <div class="praktika__nadpis2">Второй преподаватель</div>
+                <input class="nomer_semestra" type="text" name="vvod_semestra" placeholder="Номер семестра" ></input>
+                <input class="kolvo_nedel" type="text" name="vvod_kolva" placeholder="Количество недель" ></input> 
+                
+                <input placeholder="Выбор даты" class="textbox-n" 
+                type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+                
 
+                <button class="sohranit__disciplinu" type="submit" name="print" id="m" >Сохранить</button>
+
+                
             <script src="/js/script_dlya_disciplin.js"></script>
         </form>
         <form action="/html/spisok_auditori.html">
