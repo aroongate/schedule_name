@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="/css/index1.css">
     <link rel="stylesheet" href="/css/fonts/stylename.css">
     <meta charset="UTF-8">
@@ -13,6 +14,7 @@
         src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
        }</style>
 </head>
+
 <body>
     <div class="header"> 
         <div class="logo">
@@ -20,14 +22,14 @@
         </div>
         <nav class="nav"> 
             <a class="nav__link" href="#"> Изменения </a> 
-            <a class="nav__link" href="#"> Расписание </a> 
+            <a class="nav__link" href="/html/raspisanie.html"> Расписание </a> 
             <a class="nav__link" href="#"> Учебная часть </a> 
             <a class="nav__link" disabled>Преподаватили</a>
-            <a class="nav__link" href="#"> Специальность </a> 
-            <a class="nav__link" href="#"> Аудитория </a> 
-            <a class="nav__link" href="#"> Группы </a> 
+            <a class="nav__link" href="/html/spisok_specialnostei.html"> Специальность </a> 
+            <a class="nav__link" href="/html/spisok_auditori.html"> Аудитория </a> 
+            <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
             <a class="nav__link" href="/html/disciplini.html"> Дисциплины </a> 
-            <a class="nav__link" href="#"> Отделения </a> 
+            <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
             <a class="nav__link" href="#"> Настройки <div class="shesterenka">
                
             </div> </a> 
@@ -40,10 +42,17 @@
      <div class="spisok">Список преподавателей</div>
      <p><input class="poisk" type="search" name="q" placeholder=""> 
         <a class="poisk__knopka" href="">
+           
             <div class="lupa"></div>
         </a>
     </p>
+    <div class="prepod">
+    <div class="test__prepoda">
+        <div  class="test__prepoda__nadpis" id="div_id"></div>
+      <button class="krestik">X</button>
     </div>
-
+    </div>
+</div>
+<script src="/js/script_for_index.js"></script>
 </body>
 </html>

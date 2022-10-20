@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="/css/index1.css">
+    <link rel="stylesheet" href="/css/fonts/stylename.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Расписание</title>
+    <style>@font-face {
+        font-family: IntroRegular; /* Имя шрифта */
+        src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
+       }</style>
+</head>
+
+<body>
+    <div class="header2"> 
+        <div class="logo">
+         
+        </div>
+        <nav class="nav"> 
+            <a class="nav__link" href="#"> Изменения </a> 
+            <a class="nav__link" disabled> Расписание </a> 
+            <a class="nav__link" href="#"> Учебная часть </a> 
+            <a class="nav__link" href="/html/index.html">Преподаватили</a>
+            <a class="nav__link" href="/html/spisok_specialnostei.html"> Специальность </a> 
+            <a class="nav__link" href="/html/spisok_auditori.html"> Аудитория </a> 
+            <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
+            <a class="nav__link" href="/html/disciplini.html"> Дисциплины </a> 
+            <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
+            <a class="nav__link" href="#"> Настройки <div class="shesterenka">
+               
+            </div> </a> 
+    </div>
+   
+   
+
+   <div class="container">
+    <h1 class="raspisanie">Расписание</h1>
+    <div class="verch_chast">
+        <div class="polya">
+            <div class="nedelya_i_semestr">
+              <select class="vibor_nedeli" name="vibor_nedeli"><option class="nedelya" value="value1">Красная неделя</option> 
+                <option class="nedelya" value="value2">Синяя  неделя</option> 
+              </select> 
+              <select class="semestr" name="semestr">
+                ><option class="nedelya" value="value1">Семестр 1</option> 
+                <option class="nedelya" value="value2"> Семестр 2</option> 
+              </select> 
+            </div>
+          
+            </div>
+            <div class="dop_infa">
+                <div class="nadpis__dop__infa">Количество недель:16</div>
+                <div class="nadpis__dop__infa__2">Начало 01.09.2022</div>
+        </div>
+    </div>
+    <div class="dni__nedeli">
+        <div class="ponedelnik">
+         <div class="chas">16 Часов</div>
+        <div class="den">Понедельник</div>
+    </div>
+        <div class="vtornik">
+            <div class="chas2">16 Часов</div>
+        <div class="den2">Вторник</div>
+        </div>
+        <div class="sreda">
+            <div class="chas3">16 Часов</div>
+        <div class="den3">Среда</div>
+        </div>
+        <div class="chetverg">
+            <div class="chas4">16 Часов</div>
+        <div class="den4">Четверг</div>
+        </div>
+        <div class="pyatniza">
+            <div class="chas5">16 Часов</div>
+        <div class="den5">Пятница</div>
+        </div>
+    </div>
+
+    <div class="pole_vvoda_1">
+        <div class="box1">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+
+        </div>
+        <div class="box2">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box3">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box4">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box5">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+    </div>
+    <div class="pole_vvoda_2">
+        <div class="box1">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+
+        </div>
+        <div class="box2">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box3">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box4">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+        <div class="box5">
+            <select class="selector1_1_1" name="selector1_1_1">
+                <option value="">Предмет</option>
+            </select>
+            <select class="selector1_1_2" name="selector1_1_2">
+                <option value="">Аудитория</option>
+            </select>
+            <select class="selector1_1_3" name="selector1_1_3">
+                <option value="">Преподаватель</option>
+            </select>
+        </div>
+    </div>
+    <div class="pole_vvoda_3"><div class="box1">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+
+    </div>
+    <div class="box2">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box3">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box4">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box5">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div></div>
+    <div class="pole_vvoda_4"><div class="box1">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+
+    </div>
+    <div class="box2">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box3">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box4">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box5">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div></div>
+    <div class="pole_vvoda_5"><div class="box1">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+
+    </div>
+    <div class="box2">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box3">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box4">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box5">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div></div>
+    <div class="pole_vvoda_6"><div class="box1">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+
+    </div>
+    <div class="box2">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box3">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box4">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div>
+    <div class="box5">
+        <select class="selector1_1_1" name="selector1_1_1">
+            <option value="">Предмет</option>
+        </select>
+        <select class="selector1_1_2" name="selector1_1_2">
+            <option value="">Аудитория</option>
+        </select>
+        <select class="selector1_1_3" name="selector1_1_3">
+            <option value="">Преподаватель</option>
+        </select>
+    </div></div>
+   </div>
+    <div class="uchebni_plan">
+        <h1 class="nadpis228">Учебный план</h1>
+        
+        <div class="text__box1">     <h3 class="filosofiya">История</h3>
+            <div class="text__box1_1">       
+                <h3 class="style_nadpis">Запланировано:48</h3>
+                <h3 class="style_nadpis">Использовано:0</h3>
+                <h3 class="style_nadpis2">Не использовано:48</h3>
+                <h3 class="style_nadpis">Дата последней даты: не определено</h3>
+            </div>
+        </div>
+        <div class="text__box1"><h3 class="filosofiya">Иностранный язык</h3> 
+             <div class="text__box1_1">
+
+            <h3 class="style_nadpis">Запланировано:48</h3>
+            <h3 class="style_nadpis">Использовано:0</h3>
+            <h3 class="style_nadpis2">Не использовано:48</h3>
+            <h3 class="style_nadpis">Дата последней даты: не определено</h3>
+        </div>
+    </div>
+        <div class="text__box3">
+            <h3 class="filosofiya">Физическая культура</h3> 
+             <div class="text__box1_1">
+            
+            <h3 class="style_nadpis">Запланировано:48</h3>
+            <h3 class="style_nadpis">Использовано:0</h3>
+            <h3 class="style_nadpis2">Не использовано:48</h3>
+            <h3 class="style_nadpis">Дата последней даты: не определено</h3>
+        </div>
+    </div>
+
+        <div class="text__box4"> 
+            <h3 class="filosofiya">Психология делового общения</h3>
+            <div class="text__box1_1">
+             
+            <h3 class="style_nadpis">Запланировано:48</h3>
+            <h3 class="style_nadpis">Использовано:0</h3>
+            <h3 class="style_nadpis2">Не использовано:48</h3>
+            <h3 class="style_nadpis">Дата последней даты: не определено</h3>
+        </div>
+    </div>
+        <div class="text__box5"> 
+            <h3 class="filosofiya">Основы философии</h3> 
+            <div class="text__box1_1">
+           
+            <h3 class="style_nadpis">Запланировано:48</h3>
+            <h3 class="style_nadpis">Использовано:0</h3>
+            <h3 class="style_nadpis2">Не использовано:48</h3>
+            <h3 class="style_nadpis">Дата последней даты: не определено</h3>
+        </div>
+     
+    </div>
+    <div class="chasov_v_nedelyu">Часов в неделю: 2/12</div>
+    <div class="box_buttons">  
+        <button class="btn1"><h1 class="button1488"> Сохранить</h1></button>
+        <button class="btn2"></button>
+    </div>
+</div>
+
+</body>
+</html>

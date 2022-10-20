@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дисциплины</title>
+    <title>Добавление дисциплин</title>
     <style>@font-face {
         font-family: IntroRegular; /* Имя шрифта */
         src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
@@ -22,7 +22,7 @@
             <a class="nav__link" href="/html/raspisanie.html"> Расписание </a> 
             <a class="nav__link" href="#"> Учебная часть </a> 
             <a class="nav__link" href="/html/index.html">Преподаватили</a>
-            <a class="nav__link" href="/html/spisok_specialnostei.html"> Специальность </a> 
+            <a class="nav__link" href="html/spisok_specialnostei.html"> Специальность </a> 
             <a class="nav__link" href="/html/spisok_auditori.html"> Аудитория </a> 
             <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
             <a class="nav__link" disabled> Дисциплины </a> 
@@ -30,20 +30,20 @@
             <a class="nav__link" href="#"> Настройки <div class="shesterenka">
                
             </div> </a> 
-     
-        <div class="position"><div class="kolvo">Общее количество: </div>
-    </div>
-    <div class="knopka__dobavit"></div>
-    <a class="dobavit" href="/html/dobavlenie_disciplini_praktika.html">+ Добавить</a>            
-     </nav>
-     <div class="spisok">Список дисциплин</div>
-     <div class="naimenovanie__predmetov">Наименование предметов</div>
-     <p><input class="poisk" type="search" name="q" placeholder=""> 
-        <a class="poisk__knopka" href="">
-            <div class="lupa"></div>
-           
-        </a>
-    </p>
-    </div>
+            </nav>
+            <div class="dobavlenie_prepoda_nadpis">Добавление дисциплины</div>
+            <form name="sozdanie" id="form" action="" method="post">
+            
+                <select class="naimenovanie"  name="vibor_otdeleniya"  ><option value="">Наименование</option>
+                   <input class="checkbox" type="checkbox" name="terms"> 
+                   <div class="praktika__nadpis">Практика</div>
+                </select>
+                <button class="sohranit__disciplinu" type="submit" name="print" id="m" >Сохранить</button>
+
+            <script src="/js/script_dlya_disciplin_praktika.js"></script>
+        </form>
+        <form action="/html/disciplini.html">
+            <button class="nazad__disciplini" href="/html/disciplini.html">Назад</button>
+        </form>
 </body>
 </html>

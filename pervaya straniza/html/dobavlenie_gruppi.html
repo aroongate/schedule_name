@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дисциплины</title>
+    <title>Добавление группы</title>
     <style>@font-face {
         font-family: IntroRegular; /* Имя шрифта */
         src: url(/css/fonts/intro_regular.ttf); /* Путь к файлу со шрифтом */
@@ -24,26 +24,29 @@
             <a class="nav__link" href="/html/index.html">Преподаватили</a>
             <a class="nav__link" href="/html/spisok_specialnostei.html"> Специальность </a> 
             <a class="nav__link" href="/html/spisok_auditori.html"> Аудитория </a> 
-            <a class="nav__link" href="/html/spisok_grupp.html"> Группы </a> 
-            <a class="nav__link" disabled> Дисциплины </a> 
+            <a class="nav__link" disabled> Группы </a> 
+            <a class="nav__link" href="/html/disciplini.html"> Дисциплины </a> 
             <a class="nav__link" href="/html/spisok_otdelenii.html"> Отделения </a> 
             <a class="nav__link" href="#"> Настройки <div class="shesterenka">
-               
-            </div> </a> 
-     
-        <div class="position"><div class="kolvo">Общее количество: </div>
-    </div>
-    <div class="knopka__dobavit"></div>
-    <a class="dobavit" href="/html/dobavlenie_disciplini_praktika.html">+ Добавить</a>            
-     </nav>
-     <div class="spisok">Список дисциплин</div>
-     <div class="naimenovanie__predmetov">Наименование предметов</div>
-     <p><input class="poisk" type="search" name="q" placeholder=""> 
-        <a class="poisk__knopka" href="">
-            <div class="lupa"></div>
-           
-        </a>
-    </p>
+            </nav>
+            <div class="dobavlenie_prepoda_nadpis">Добавление группы</div>
+         
+          <form name="sozdanie" id="form" action="" method="post">
+            <input class="imya" type="text" name="vvod_imeni" placeholder="Кодовое имя" ></input>
+            <input class="familiya" type="text" name="vvod_familii" placeholder="Подгруппа" ></input>
+            <input class="otchestwo" type="text" name="vvod_otchestwa" placeholder="Курс" ></input>
+            <input class="checkbox__2" type="checkbox" name="terms">
+            <select class="otdelenie"  name="vibor_otdeleniya"  >
+                <option value="">Специальность</option>
+            </select>
+            <div class="ochnaya__forma" >Очная форма</div>
+            <button class="sohranit5" type="submit" name="print" id="m" >Сохранить</button>
+        </form>
+        <form action="/html/spisok_grupp.html">
+            <button class="nazad5" href="/html/spisok_grupp.html">Назад</button>
+        </form>
+       
+    
     </div>
 </body>
 </html>

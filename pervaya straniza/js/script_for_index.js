@@ -1,0 +1,1 @@
+document.getElementById("div_id").innerHTML=localStorage.something;
