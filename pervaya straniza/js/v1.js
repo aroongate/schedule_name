@@ -12,6 +12,7 @@ function polucheniedannih(event) {
         otdelenie: otdelenie.value
      };   
      console.log('v1',values)
+     
    localStorage.something = values.name+' '+values.familiya+' '+values.otchestvo ; 
      
 }
