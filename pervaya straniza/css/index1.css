@@ -505,12 +505,48 @@ color: #000000;
 
 }
 
+
+.test__prepoda__nadpis__2{
+    position: absolute;
+    width: 337px;
+    height: 38px;
+    left: 210px;
+    top: 208px;
+    
+    
+font-family: 'IntroRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
 .krestik{
     position: absolute;
 width: 18px;
 height: 18px;
 left: 314px;
 top: 8px;
+color: #2183AA;
+font-family: 'IntroRegular';
+border: 0;
+background-color: #F3F9FB;
+cursor: pointer;
+}
+
+.krestik__2{
+    position: absolute;
+width: 18px;
+height: 18px;
+left: 510px;
+top: 240px;
 color: #2183AA;
 font-family: 'IntroRegular';
 border: 0;
