@@ -7,5 +7,9 @@ let mem = fetch("http://127.0.0.1:8000/api/admin/get_teachers", {
 })
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
+    let span = createNode('span');
+    span.innerHTMl = `$(first_name) $(last_name) $(patronymic_name)`;
+    console.log(span);
   });
+
+
